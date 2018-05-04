@@ -1,5 +1,5 @@
 <h1>Let's Create a Recipe!</h1>
-<form action="/recipes" method="post">
+<form action="/recipes/<%=@recipe.id%>" method="post">
   <p>Name:  <input type="text" name="name"></p>
   <p>Ingredients: <input type="text" name="ingredients"></p>
   <p>Cook Time:  <input type="text" name="cook_time"></p>
